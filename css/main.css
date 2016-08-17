@@ -4,6 +4,27 @@ a{
 img, iframe{
 	width: 100%;
 }
+header{
+	background-color: black;
+}
+section{
+	background-color: gray;
+}
+.bg-img{
+	background-image: url("../image/header-image.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	max-width: 100%;
+}
+.bg-black{
+	background-color: black;
+	width: 30%;
+	color:white;
+}
+
+
+
 
 /* Responsive */
 
