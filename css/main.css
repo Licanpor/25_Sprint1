@@ -1,37 +1,76 @@
 a{
 	text-decoration: none;
 }
-img, iframe{
+img, iframe, input{
 	width: 100%;
 }
-header{
-	background-color: black;
+header, .bg-black, footer, .bg-in, .bg-as {
+	background-color: #222;
 }
+/*p{
+	font-family: Open-Sans;
+}*/
 section{
 	background-color: gray;
+}
+footer, .bg-black, .bg-as, .bg-ic{
+		color:white;
+}
+input, .bg-ic{
+	background-color: #777;
+	border: none;
+}
+.bg-ic{
+	border-radius: 100%;
+	padding: 2%;
+}
+.bg-as{
+	padding: 1% 0%;
+	margin-top: 2%;
+}
+.mg{
+	margin: 2% 0%;
+}
+.pd{
+	padding-top: 4%;
 }
 .bg-img{
 	background-image: url("../image/header-image.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
-	max-width: 100%;
+	padding: 8% 30%;
+	margin: 2% 0% 2% 2%;
+}
+.sp{
+	font-family: Courgette;
+	color:orange;
+	/*font-size: 300%;*/
+}
+.bg-in{
+	padding: 4%;
 }
 .bg-black{
-	background-color: black;
-	width: 30%;
-	color:white;
+	width: 100%;
+	padding: 1%;
 }
-
-
-
-
 /* Responsive */
 
 @media screen and (max-width : 920px) {
-
+		
 }
 
 @media screen and (max-width: 600px) {
-
+		.bg-img{
+			margin: 6% 0% 6% 2%;
+			padding: 6% 10%;
+			font-size: 80%;
+		}
+		.bg-black{
+			font-size: 90%;
+			padding:6%;
+		}
+		.mg{
+			margin: 4% 0%;
+		}
 }
